@@ -304,19 +304,31 @@ button {
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
+.container{
+     padding: auto, auto;
+     margin: auto, auto;
+}
+
+header{
+     width: 100vw;
+     height: 100vh;
+}
+
 .header_papa{
      width: 100%;
      height: 100%;
 }
 
 .head_top {
-     background: url(../images/banner.jpg);
+     width: 100%;
+     height: 100%;
+     background: url(../images/intro_rosa.png);
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     padding-top: 70px;
+     padding-top: 60px;
      background-position: center;
      border-radius: 0px 0px 0px 0px;
-     background-size: 100% 100%;
+     background-size: cover;
 }
 
 .header {
@@ -338,7 +350,7 @@ button {
 }
 
 .banner_main {
-     padding: 90px 0;
+     padding: 250px 0;
 }
 
 .text-bg {
@@ -373,7 +385,7 @@ button {
 .text-bg a {
      font-size: 17px;
      background-color: #fff;
-     color: #dc5373;
+     color: #f1bfbf;
      padding: 13px 0px;
      width: 100%;
      max-width: 190px;
@@ -404,7 +416,7 @@ button {
 
 .titlepage h2 {
      font-size: 60px;
-     color: #3e3e3e;
+     /*color: #fff;*/
      line-height: 77px;
      font-weight: bold;
      padding: 0;
@@ -420,16 +432,20 @@ button {
 /** weare section **/
 
 .weare {
+     width: 100vw;
+     height: 100vh;
      background: #fff;
      padding-top: 90px;
+     min-height: 900px;
 }
 
 .weare .titlepage h2 {
      margin-bottom: 20px;
+     color: #f1bfbf;
 }
 
 .weare .titlepage h2::after {
-     border-bottom: #f55171 solid 1px;
+     border-bottom: #f1bfbf solid 1px;
      content: "";
      position: absolute;
      bottom: 0;
@@ -450,7 +466,7 @@ button {
 
 .weare .weare_box figure img {
      border-radius: 190px;
-     background: #f55171;
+     background: #f1bfbf;
      padding: 15px;
 }
 
@@ -467,7 +483,7 @@ button {
 }
 
 .weare .weare_box .read_more:hover {
-     background: #f55171;
+     background: #f1bfbf;
 }
 
 
@@ -481,9 +497,12 @@ button {
 }
 
 .Our {
-     background: #f55171;
-     margin-top: 90px;
-     padding: 60px 0px;
+     width: 100vw;
+     height: 100vh;
+     background: #f1bfbf;
+     /*opacity: 70%;*/
+     padding-top: 150px;
+     min-height: 700px;
 }
 
 .Our .titlepage h2 {
@@ -574,7 +593,7 @@ button {
 }
 
 .regist .titlepage h2::after {
-     border-bottom: #f55171 solid 1px;
+     border-bottom: #f1bfbf solid 1px;
      content: "";
      position: absolute;
      bottom: 0;
@@ -588,10 +607,16 @@ button {
 .regist .titlepage span {
      font-size: 17px;
      line-height: 28px;
+     color: #fff;
 }
 
 .regist {
-     padding-top: 90px;
+     width: 100vw;
+     height: 100vh;
+     padding-top: 150px;
+     background: #f1bfbf;
+     /*opacity: 70%;*/
+     min-height: 700px;
 }
 
 .main_form {
@@ -621,7 +646,7 @@ button {
 }
 
 .regist .main_form .register:hover {
-     background-color: #f55171;
+     background-color: #f1bfbf;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
@@ -672,19 +697,20 @@ button {
 /** testimonial section **/
 
 .testimonial {
-     margin-top: 90px;
-     padding-bottom: 90px;
-     background: #f55171;
-     padding-top: 60px;
+     width: 100vw;
+     height: 100vh;
+     padding-top: 150px;
+     /*background: #f1bfbf;*/
+     min-height: 700px;
 }
 
 .testimonial .titlepage h2 {
      margin-bottom: 20px;
-     color: #fff;
+     color: #f1bfbf;
 }
 
 .testimonial .titlepage h2::after {
-     border-bottom: #fff solid 1px;
+     border-bottom: #f1bfbf solid 1px;
      content: "";
      position: absolute;
      bottom: 0;
@@ -697,7 +723,7 @@ button {
 
 .testimonial .titlepage p {
      font-size: 17px;
-     color: #fff;
+     color: #f1bfbf;
 }
 
 .testimonial_Carousel .carousel-caption {
@@ -719,7 +745,7 @@ button {
 
 .testimonial_box {
      text-align: center;
-     background: #fff;
+     background: #f1bfbf;
      box-shadow: #ddd 0px 0px 10px 0px;
      padding: 0px 40px 40px 40px;
 }
@@ -732,14 +758,14 @@ button {
 
 .testimonial_Carousel .test_box .jons i {
      float: left;
-     background: #fff;
+     background: #f1bfbf;
      border-radius: 50px;
      padding: 9px;
 }
 
 .testimonial_Carousel .test_box .jons h4 {
      font-size: 25px;
-     color: #fff;
+     color: #f1bfbf;
      padding-top: 27px;
      line-height: 32px;
      padding-left: 20px;
@@ -750,7 +776,7 @@ button {
      font-size: 17px;
      line-height: 28px;
      color: #090808;
-     background: #fff;
+     background: #f1bfbf;
      padding: 40px;
      border-radius: 90px;
 }
@@ -765,7 +791,7 @@ button {
      margin-right: -4px;
      margin-left: -4px;
      border-radius: 10px;
-     background: #fff;
+     background: #f1bfbf;
 }
 
 .testimonial_Carousel .carousel-indicators li.active {
@@ -775,11 +801,95 @@ button {
 
 /** end testimonial section **/
 
+/** Contact section **/
+
+.Contact {
+     width: 100vw;
+     height: 100vh;
+     background: #fff;
+     /*opacity: 70%;*/
+     padding-top: 150px;
+     min-height: 700px;
+}
+
+.Contact .titlepage h2 {
+     color: #f1bfbf;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+}
+
+.Contact .titlepage h2::after {
+     border-bottom: #f1bfbf solid 1px;
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     max-width: 500px;
+     margin: 0 auto;
+}
+
+.Contact .titlepage span {
+     color: #f1bfbf;
+}
+
+.yellow {
+     color: #f99b1d;
+}
+
+.Contact_box i {
+     border: #f1bfbf solid 4px;
+     width: 160px;
+     height: 160px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     border-radius: 85px;
+     transition: ease-in all 0.1s;
+     cursor: pointer;
+}
+
+.Contact_box i:hover {
+     width: 140px;
+     height: 140px;
+     transition: ease-in all 0.2s;
+}
+
+.Contact_box {
+     text-align: center;
+}
+
+.Contact_box h4 {
+     color: #f1bfbf;
+     text-transform: uppercase;
+     font-size: 30px;
+     line-height: 30px;
+     font-weight: 400;
+     padding: 0;
+     padding-top: 35px;
+}
+
+.Contact_box p {
+     color: #f1bfbf;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 25px 0;
+}
+
+.Contact_box .read_more {
+     margin: 0 auto;
+     display: block;
+}
+
+/** final contact section **/
+
 
 /** footer **/
 
 .multi {
-     color: #f55171;
+     color: #f1bfbf;
      font-weight: bold;
      font-size: 60px;
 }
@@ -837,7 +947,7 @@ button {
 }
 
 .copyright a:hover {
-     color: #f55171;
+     color: #f1bfbf;
 }
 
 
